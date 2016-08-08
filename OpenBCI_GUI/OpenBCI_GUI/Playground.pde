@@ -313,7 +313,7 @@ class Playground {
           }
         } else {
 
-          //****************************************** REST STATE******************************************************
+          //****************************************** REST STATE ******************************************************
 
           if (countdown != minutes) {
             //background(255);
@@ -479,7 +479,7 @@ class Playground {
       RestState.setIsActive(true);
       RestStateButtonPressed = true;
       Trials.setIsActive(false);
-      TrialsButtonPressed = false;
+      TrialsButtonPressed = false;      
     }
   }
 
