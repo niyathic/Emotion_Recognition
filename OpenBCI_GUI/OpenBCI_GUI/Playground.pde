@@ -234,10 +234,10 @@ class Playground {
             text("Time " + " " + "-" + " " + ((minutes) + ":" + (onlysecs)), x+40, y+70);
           }
 
-          if (count < 10) {
-            text("Trial" + " " + "-" + " " + "0" + (count) + "/" + "10", x+40, y+110);
+          if (count < 30) {
+            text("Trial" + " " + "-" + " " + "0" + (count) + "/" + "30", x+40, y+110);
           } else {
-            text("Trial" + " " + "-" + " " + (count) + "/" + "10", x+40, y+110);
+            text("Trial" + " " + "-" + " " + (count) + "/" + "30", x+40, y+110);
           }
 
           //************************************************ Move Right Finger
@@ -279,7 +279,7 @@ class Playground {
               openBCI.sendChar('g');
               sendg = false;
             }
-          }
+          }  
 
           if (ThisTime > 6000 && ThisTime < 8000) {
             textFont(f4, 50);
@@ -292,7 +292,7 @@ class Playground {
             count ++;
             bonusTime = 0;
 
-            if (count < 11) {
+            if (count < 31) {
               startingTime = millis();
               sendf = true;
               sendg = true;
